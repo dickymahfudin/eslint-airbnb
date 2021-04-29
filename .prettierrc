@@ -1,0 +1,18 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": ["*.json", "legacy/**/*.json"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.ejs", "legacy/**/*.ejs"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
